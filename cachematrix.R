@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The two functions given here are used to create a matrix and to find the inverse
+## of the same matrix. The first function returns a list with the matrix and its inverse
+## and the second returns the inverse value if it exists or finds it if it is NULL.
 
 ## Use this function to create a matrix of your choice(square preferably!!)
 
@@ -16,7 +17,7 @@ list(set=set,get=get,setinv=setinv,getinv=getinv)
 }
 
 
-## This function can be used to calculate the inverse of required matrix.
+## This function can be used to calculate the inverse of required matrix with the input being the list from previous function containing the matrix.
 
 cacheSolve <- function(x, ...) {
        check<-x$getinv()
